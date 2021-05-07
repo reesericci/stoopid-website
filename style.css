@@ -13,10 +13,10 @@ main {
     position: relative;
 }
 #scroll-headline {
-    font-size: 125px;
+    font-size: 7vw;
 }
 #scroll-invite {
-    font-size: 135px;
+    font-size: 7vw;
     color: #2072BE;
     text-decoration: underline;
     text-align: right;
@@ -48,3 +48,34 @@ main {
     opacity: 75%;
     transition: all 0.5s ease;
 }
+.github-badge {
+    position: fixed;
+    top: 0.5rem; 
+    right: 0.5rem;
+    z-index: 0;
+}
+.github-badge:hover {
+    opacity: 75%;
+}
+@media only screen and (max-width: 768px) {
+    .github-badge {
+        display: none;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    #scroll-headline {
+        font-size: 10vh;
+    }
+    #scroll-invite {
+        font-size: 10vh;
+    }
+} 
+
+@media only screen and (min-width: 2000px) {
+    #scroll-headline {
+        font-size: 5vw;
+    }
+    #scroll-invite {
+        font-size: 5vw;
+    }
+} 
