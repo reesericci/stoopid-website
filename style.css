@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-text-pro?styles=16509,16510,16511,16512');
+
+body {
+    background: linear-gradient(116.82deg, rgba(82, 78, 248, 0.25) 0%, rgba(219, 24, 71, 0.75) 100%);
+    height: 200vh;
+    font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+    font-weight: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: inherit;
+}
+main {
+    position: relative;
+}
+#scroll-headline {
+    font-size: 125px;
+}
+#scroll-invite {
+    font-size: 135px;
+    color: #2072BE;
+    text-decoration: underline;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+#konami {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+}
+#hero {
+ height: 100vh;
+}
+#scrollview {
+    height: 100vh;
+}
+#logo {
+ margin-top: 1rem;
+ width: 75vw;
+ height: 75vh;
+}
+#logo > svg {
+    position: relative;
+}
+#logo > svg > a > g:hover {
+    opacity: 75%;
+    transition: all 0.5s ease;
+}
